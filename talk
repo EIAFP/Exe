@@ -7,7 +7,7 @@ int main()
     cout<<"\nEric is very handsome(fat)";
     cout<<"\nPaco is a gaint.";
     cout<<"\nLee bai is a chinese.";
-    cout<<"\nAontnny is better than Jun who has no friend and he is very poor.";
+    cout<<"\nAontnny is better.";
 
     return 0;
 }
