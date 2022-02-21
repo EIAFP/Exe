@@ -1,0 +1,13 @@
+int main()
+{
+    int myAge = 55;
+    cout<<"I am "<<myAge<<" years old.";
+    cout<<"\nI think Jun is a ugly girl.";
+    cout<<"\ntoday is a good day fuck you.";
+    cout<<"\nEric is very handsome(fat)";
+    cout<<"\nPaco is a gaint.";
+    cout<<"\nLee bai is a chinese.";
+    cout<<"\nAontnny is better than Jun who has no friend and he is very poor.";
+
+    return 0;
+}
