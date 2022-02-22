@@ -3,10 +3,10 @@ using namespace std;
 
 int main() {
   int myAge = 14;
+  cout << "I am " << myAge << "years old.\n";
   printf("I am %d years old,\n",myAge);
-  cout << "I am " << myAge << " years old,\n";
-  cout << "my height is 1m68cm,\n";
-  cout << "my weight is 68kg,\n";
-  cout << "I have 0 brother, 1 sister.";
+  printf("my height is %dm %dcm,\n",1,68);
+  printf("my weight is %d,\n",68);
+  printf("I have %d brother, %d sister.",0,1);
   return 0;
 }
