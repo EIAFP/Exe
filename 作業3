@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int myAge = 14;
+  cout << "I am " << myAge << " years old,\n";
+  cout << "my height is 1m68cm,\n";
+  cout << "my weight is 68kg,\n";
+  cout << "I have 0 brother, 1 sister.";
+  return 0;
+}
