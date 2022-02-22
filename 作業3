@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
   int myAge = 14;
+  printf("I am %d years old,\n",myAge);
   cout << "I am " << myAge << " years old,\n";
   cout << "my height is 1m68cm,\n";
   cout << "my weight is 68kg,\n";
