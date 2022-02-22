@@ -4,9 +4,10 @@ using namespace std;
 
 int main()
 {
-       
+    int myAge = 14
     cout <<  "hello Eric\n ";
     cout <<  "\nmy height is " << 1 << "m " << 68 << "cm";
-
+    printf(" I am myAge years old. ");
+    
     return 0;
 }
