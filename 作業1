@@ -2,3 +2,4 @@
 int main (void) {
      printf(" hello Eric ");
      printf(" my height is %d m %d cm \n",1,68);
+}
