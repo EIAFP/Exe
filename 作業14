@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main(){
+    int a, b, product;
+    a=20;
+    b=7;
+    product = a+b;
+    printf("product = %d \n", product);
+    product = a-b;
+    printf("product = %d \n", product);
+    product = a*b;
+    printf("product = %d \n", product);
+    product = a/b;
+    printf("product = %d \n", product);
+    product = a%b;
+    printf("product = %d \n", product);
+    product = a++;
+    printf("product = %d \n", product);
+    product = ++a;
+    printf("product = %d \n", product);
+    product = a--;
+    printf("product = %d \n", product);
+    product = --a;
+    printf("product = %d \n", product);
+    product = a = 16;
+    printf("product = %d \n", product);
+    product = a>>1;
+    printf("product = %d \n", product);
+    product = a>>2;
+    printf("product = %d \n", product);
+    product = a<<1;
+    printf("product = %d", product);
+    return 0;
+}
