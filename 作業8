@@ -4,7 +4,7 @@ int main(){
     int a, b, product;
     a=20;
     b=7;
-    product = a = b;
+    product = a+b;
     printf("product = %d", product);
     return 0;
 }
