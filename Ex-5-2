@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf(" pleace input a \n");
+    scanf(" %d", &a);
+    if(a>9)
+        printf(" Hello a > 9");
+    else if (a<2&a>0)
+        printf("Monday");
+    else if (a<3&a>1)
+        printf("Tuesday");
+    else if (a<4&a>2)
+        printf("Wednesday");
+    else if (a<5&a>3)
+        printf("Thursday");
+    else if (a<6&a>4)
+        printf("Friday");
+    else if (a<7&a>5)
+        printf("Saturday");
+    else if (a<8&a>6)
+        printf("Sunday");
+    else 
+        printf("Hello world");
+    return 0;
+}
