@@ -7,6 +7,6 @@ int main()
     if (c=a+b)
         printf("right");
     else
-        printf("wrong");
+        printf("error");
     return 0;
 }
