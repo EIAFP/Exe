@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+#define N 10
+int main()
+{
+    int a,b,c,d,e,f,g,h,i,j,S, x[N]={a,b,c,d,e,f,g,h,i,j};
+    scanf("%d%d%d%d%d%d%d%d%d%d",&a,&b,&c,&d,&e,&f,&g,&h,&i,&j);
+    S=(a+b+c+d+e+f+g+h+i+j)/10;
+    printf("%d",S);
+}
