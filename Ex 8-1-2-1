@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a[10],q=0,w=0,r=0,L;
+    for(L=1;L<=10;L++){
+        scanf("%d",&a[L]);
+        if (a[L]>0)
+            q=q+1;
+        else
+            if (a[L]<0)
+                w=w+1;
+            else
+                r=r+1;
+    }   
+    printf("正數有%d個\n零有%d個\n負數有%d個\n",q,r,w);
+}
